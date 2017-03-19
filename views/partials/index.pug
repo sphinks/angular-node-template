@@ -1,0 +1,18 @@
+h3 Contacts
+
+table.table.table-striped
+  thead
+    th First Name
+    th Last Name
+    th Action
+  tbody
+    tr(ng-repeat="contact in contacts")
+      td {{contact.firstname}}
+      td {{contact.lastname}}
+      td
+        a(href="/contacts/{{contact.firstname}}") Show
+        |
+        |
+        a(href="/contacts/{{contact.firstname}}/edit") Edit
+
+button.btn.btn-success(ng-click="new()") New Contact

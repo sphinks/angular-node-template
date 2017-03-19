@@ -43,8 +43,8 @@ Just fetch the changes and merge them into your project with git.
       api.js            --> route for serving JSON
       index.js          --> route for serving HTML pages and partials
     views/
-      index.pig        --> main page for app
-      layout.pig       --> doctype, title, head boilerplate
-      partials/         --> angular view partials (partial pig templates)
-        partial1.pig
-        partial2.pig
+      index.pug        --> main page for app
+      layout.pug       --> doctype, title, head boilerplate
+      partials/         --> angular view partials (partial pug templates)
+        partial1.pug
+        partial2.pug
